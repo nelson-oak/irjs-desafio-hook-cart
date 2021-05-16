@@ -24,19 +24,25 @@ const Cart = (): JSX.Element => {
     ...product,
     subTotal: product.amount * product.price
   }))
-  // const total =
-  //   formatPrice(
-  //     cart.reduce((sumTotal, product) => {
-  //       // TODO
-  //     }, 0)
-  //   )
+  const total =
+    formatPrice(
+      cart.reduce((sumTotal, product) => {
+        return sumTotal + (product.price * product.amount)
+      }, 0)
+    )
 
-  function handleProductIncrement(product: Product) {
-    // TODO
+  async function handleProductIncrement(product: Product) {
+    await updateProductAmount({
+      productId: product.id,
+      amount: product.amount + 1
+    })
   }
 
-  function handleProductDecrement(product: Product) {
-    // TODO
+  async function handleProductDecrement(product: Product) {
+    await updateProductAmount({
+      productId: product.id,
+      amount: product.amount - 1
+    })
   }
 
   function handleRemoveProduct(productId: number) {
@@ -112,7 +118,7 @@ const Cart = (): JSX.Element => {
 
         <Total>
           <span>TOTAL</span>
-          <strong>R$ 359,80</strong>
+          <strong>{total}</strong>
         </Total>
       </footer>
     </Container>
