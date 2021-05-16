@@ -45,8 +45,8 @@ const Cart = (): JSX.Element => {
     })
   }
 
-  function handleRemoveProduct(productId: number) {
-    // TODO
+  async function handleRemoveProduct(productId: number) {
+    await removeProduct(productId)
   }
 
   return (

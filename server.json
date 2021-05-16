@@ -1,12 +1,12 @@
 {
   "stock": [
     {
-      "amount": 1,
-      "id": 1
+      "id": 1,
+      "amount": 3
     },
     {
-      "amount": 3,
-      "id": 2
+      "id": 2,
+      "amount": 5
     },
     {
       "id": 3,
