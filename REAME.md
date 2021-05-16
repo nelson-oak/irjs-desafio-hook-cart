@@ -1,0 +1,39 @@
+# Desafio Principal 2 - Hook em Carrinho de Compras
+
+Desafio do bootcamp Ignite React JS
+O intuito é fixar os conceitos de hooks
+
+## Funcionalidades
+
+| Número | Funcionalidade |
+| - | - |
+| 1 | Adicionar um novo protudo ao carrinho |
+| 2 | Remover um produto do carrinho |
+| 3 | Cálculo dos preços sub-total e total do carrinho |
+| 4 | Alterar a quantidade de um produto no carrinho |
+| 5 | Exibição de mensagem de erro |
+
+## Recursos
+
+## Iniciando o projeto
+
+Após clonar o projeto, é necessário atualizar as dependências.
+
+### Comandos para baixar dependências e iniciar a aplicação
+
+```bash
+yarn
+yarn dev
+```
+
+### Testando a aplicação
+
+```bash
+yarn test
+```
+
+### FakeAPI
+
+```bash
+yarn server
+```
