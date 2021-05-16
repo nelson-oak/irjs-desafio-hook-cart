@@ -9,10 +9,11 @@ O intuito é fixar os conceitos de hooks
 | - | - |
 | 1 | Listar produtos |
 | 2 | Adicionar um novo protudo ao carrinho |
-| 3 | Remover um produto do carrinho |
-| 4 | Cálculo dos preços sub-total e total do carrinho |
-| 5 | Alterar a quantidade de um produto no carrinho |
-| 6 | Exibição de mensagem de erro |
+| 3 | Listar produtos no carrinho |
+| 4 | Remover um produto do carrinho |
+| 5 | Cálculo dos preços sub-total e total do carrinho |
+| 6 | Alterar a quantidade de um produto no carrinho |
+| 7 | Exibição de mensagem de erro |
 
 ## Recursos
 

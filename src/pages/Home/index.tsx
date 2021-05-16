@@ -52,12 +52,7 @@ const Home = (): JSX.Element => {
         <li key={product.id}>
           <img src={product.image} alt={product.title} />
           <strong>{product.title}</strong>
-          <span>{
-            Intl.NumberFormat('pt-BR', {
-              style: 'currency',
-              currency: 'BRL'
-            }).format(product.price)
-          }</span>
+          <span>{formatPrice(product.price)}</span>
           <button
             type="button"
             data-testid="add-product-button"
