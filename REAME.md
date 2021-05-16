@@ -7,11 +7,12 @@ O intuito é fixar os conceitos de hooks
 
 | Número | Funcionalidade |
 | - | - |
-| 1 | Adicionar um novo protudo ao carrinho |
-| 2 | Remover um produto do carrinho |
-| 3 | Cálculo dos preços sub-total e total do carrinho |
-| 4 | Alterar a quantidade de um produto no carrinho |
-| 5 | Exibição de mensagem de erro |
+| 1 | Listar produtos |
+| 2 | Adicionar um novo protudo ao carrinho |
+| 3 | Remover um produto do carrinho |
+| 4 | Cálculo dos preços sub-total e total do carrinho |
+| 5 | Alterar a quantidade de um produto no carrinho |
+| 6 | Exibição de mensagem de erro |
 
 ## Recursos
 
